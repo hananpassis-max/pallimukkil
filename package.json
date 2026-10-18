@@ -1,0 +1,14 @@
+{
+  "name": "house-cleaning-management-website",
+  "version": "1.0.0",
+  "description": "Full-stack house cleaning management website",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.12.0"
+  }
+}
